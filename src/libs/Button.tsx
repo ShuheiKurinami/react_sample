@@ -4,7 +4,7 @@ type ButtonType = "primary" | "secondary" | "error";
 
 type Props = {
   title: string;
-  onClick: string;
+  onClick: () => void;
   type?: ButtonType;
   width?: number;
 };
